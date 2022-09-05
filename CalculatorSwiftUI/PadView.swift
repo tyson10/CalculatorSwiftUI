@@ -9,7 +9,36 @@ import SwiftUI
 
 struct PadView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack {
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+            }
+            VStack {
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+            }
+            VStack {
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+            }
+            VStack {
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+                Button("버튼", action: {})
+            }
+        }
     }
 }
 
