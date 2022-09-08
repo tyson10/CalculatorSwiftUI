@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530E036A28C9DBD600630F26 /* UIScreen+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E036928C9DBD600630F26 /* UIScreen+Ext.swift */; };
 		531A0ADE28C6616A005585CE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A0ADD28C6616A005585CE /* ButtonStyles.swift */; };
 		5386096C28C6376300ADEFD2 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386096B28C6376300ADEFD2 /* PadView.swift */; };
 		53C7779528BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7779428BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530E036928C9DBD600630F26 /* UIScreen+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Ext.swift"; sourceTree = "<group>"; };
 		531A0ADD28C6616A005585CE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		5386096B28C6376300ADEFD2 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
 		53C7779128BE0FE4001A33E1 /* CalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 				531A0ADD28C6616A005585CE /* ButtonStyles.swift */,
 				53C7779828BE0FE6001A33E1 /* Assets.xcassets */,
 				53C7779A28BE0FE6001A33E1 /* Preview Content */,
+				530E036928C9DBD600630F26 /* UIScreen+Ext.swift */,
 			);
 			path = CalculatorSwiftUI;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				53C7779728BE0FE4001A33E1 /* ContentView.swift in Sources */,
 				531A0ADE28C6616A005585CE /* ButtonStyles.swift in Sources */,
+				530E036A28C9DBD600630F26 /* UIScreen+Ext.swift in Sources */,
 				53C7779528BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift in Sources */,
 				5386096C28C6376300ADEFD2 /* PadView.swift in Sources */,
 			);
