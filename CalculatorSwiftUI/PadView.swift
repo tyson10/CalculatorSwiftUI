@@ -12,31 +12,51 @@ struct PadView: View {
         HStack {
             VStack {
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
             }
             VStack {
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
             }
             VStack {
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
             }
             VStack {
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
                 Button("버튼", action: {})
+                    .buttonStyle(NumberPadStyle(color: .brown))
             }
         }
     }
