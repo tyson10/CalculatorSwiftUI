@@ -38,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530E036B28C9E73D00630F26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				530E036928C9DBD600630F26 /* UIScreen+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		53C7778828BE0FE4001A33E1 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +69,9 @@
 				53C7779628BE0FE4001A33E1 /* ContentView.swift */,
 				5386096B28C6376300ADEFD2 /* PadView.swift */,
 				531A0ADD28C6616A005585CE /* ButtonStyles.swift */,
+				530E036B28C9E73D00630F26 /* Extensions */,
 				53C7779828BE0FE6001A33E1 /* Assets.xcassets */,
 				53C7779A28BE0FE6001A33E1 /* Preview Content */,
-				530E036928C9DBD600630F26 /* UIScreen+Ext.swift */,
 			);
 			path = CalculatorSwiftUI;
 			sourceTree = "<group>";
