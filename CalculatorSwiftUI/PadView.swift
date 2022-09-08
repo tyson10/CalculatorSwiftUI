@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PadView: View {
     var body: some View {
-        HStack {
+        HStack(spacing: 0) {
             VStack {
                 Button("버튼", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
