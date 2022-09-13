@@ -11,7 +11,7 @@
 		531A0ADE28C6616A005585CE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A0ADD28C6616A005585CE /* ButtonStyles.swift */; };
 		5386096C28C6376300ADEFD2 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386096B28C6376300ADEFD2 /* PadView.swift */; };
 		53C7779528BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7779428BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift */; };
-		53C7779728BE0FE4001A33E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7779628BE0FE4001A33E1 /* ContentView.swift */; };
+		53C7779728BE0FE4001A33E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7779628BE0FE4001A33E1 /* MainView.swift */; };
 		53C7779928BE0FE6001A33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C7779828BE0FE6001A33E1 /* Assets.xcassets */; };
 		53C7779C28BE0FE6001A33E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C7779B28BE0FE6001A33E1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -22,7 +22,7 @@
 		5386096B28C6376300ADEFD2 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
 		53C7779128BE0FE4001A33E1 /* CalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C7779428BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSwiftUIApp.swift; sourceTree = "<group>"; };
-		53C7779628BE0FE4001A33E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53C7779628BE0FE4001A33E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		53C7779828BE0FE6001A33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53C7779B28BE0FE6001A33E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				53C7779428BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift */,
-				53C7779628BE0FE4001A33E1 /* ContentView.swift */,
+				53C7779628BE0FE4001A33E1 /* MainView.swift */,
 				5386096B28C6376300ADEFD2 /* PadView.swift */,
 				531A0ADD28C6616A005585CE /* ButtonStyles.swift */,
 				530E036B28C9E73D00630F26 /* Extensions */,
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C7779728BE0FE4001A33E1 /* ContentView.swift in Sources */,
+				53C7779728BE0FE4001A33E1 /* MainView.swift in Sources */,
 				531A0ADE28C6616A005585CE /* ButtonStyles.swift in Sources */,
 				530E036A28C9DBD600630F26 /* UIScreen+Ext.swift in Sources */,
 				53C7779528BE0FE4001A33E1 /* CalculatorSwiftUIApp.swift in Sources */,
