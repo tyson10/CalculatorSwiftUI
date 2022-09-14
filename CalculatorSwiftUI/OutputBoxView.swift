@@ -6,15 +6,17 @@
 //
 
 import SwiftUI
+import Combine
 
 struct OutputBoxView: View {
+    @Binding var number: Double
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("\(self.number)")
     }
 }
 
 struct OutputBoxView_Previews: PreviewProvider {
     static var previews: some View {
-        OutputBoxView()
+        OutputBoxView(number: .constant(0))
     }
 }
