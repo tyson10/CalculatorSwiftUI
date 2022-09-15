@@ -9,7 +9,11 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        PadView()
+        VStack {
+            OutputBoxView(number: .constant(0))
+                .frame(width: .infinity, height: .infinity, alignment: .trailing)
+            PadView()
+        }
     }
 }
 
