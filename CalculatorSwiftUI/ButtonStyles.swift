@@ -20,6 +20,6 @@ struct NumberPadStyle: ButtonStyle {
             .frame(width: UIScreen.size.width / 4, height: UIScreen.size.width / 4, alignment: .center)
             .background(self.color)
             .clipShape(Circle())
-            .font(.system(size: 14))
+            .font(.system(size: 30))
     }
 }
