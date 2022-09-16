@@ -12,13 +12,13 @@ struct PadView: View {
         VStack {
             HStack(spacing: 0) {
                 Button("AC", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .gray))
                 Button("+/-", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .gray))
                 Button("%", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .gray))
                 Button("÷", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .orange))
             }
             
             HStack(spacing: 0) {
@@ -29,7 +29,7 @@ struct PadView: View {
                 Button("9", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("✕", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .orange))
             }
             
             HStack(spacing: 0) {
@@ -40,7 +40,7 @@ struct PadView: View {
                 Button("6", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("-", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .orange))
             }
             
             HStack(spacing: 0) {
@@ -51,7 +51,7 @@ struct PadView: View {
                 Button("3", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("+", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .orange))
             }
             
             HStack(spacing: 0) {
@@ -60,7 +60,7 @@ struct PadView: View {
                 Button(".", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("=", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(NumberPadStyle(color: .orange))
             }
         }
     }
