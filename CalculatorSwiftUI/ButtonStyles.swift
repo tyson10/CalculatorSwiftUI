@@ -23,3 +23,19 @@ struct NumberPadStyle: ButtonStyle {
             .font(.system(size: 30))
     }
 }
+
+struct WidePadStyle: ButtonStyle {
+    private var color: Color
+    
+    init(color: Color) {
+        self.color = color
+    }
+    
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .frame(width: UIScreen.size.width / 2, height: UIScreen.size.width / 4, alignment: .center)
+            .background(self.color)
+            .clipShape(Capsule())
+            .font(.system(size: 30))
+    }
+}

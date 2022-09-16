@@ -56,9 +56,7 @@ struct PadView: View {
             
             HStack(spacing: 0) {
                 Button("0", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
-                Button("0", action: {})
-                    .buttonStyle(NumberPadStyle(color: .brown))
+                    .buttonStyle(WidePadStyle(color: .brown))
                 Button(".", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("=", action: {})
