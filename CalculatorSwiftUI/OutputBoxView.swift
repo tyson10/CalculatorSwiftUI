@@ -12,7 +12,7 @@ struct OutputBoxView: View {
     @Binding var number: Double
     var body: some View {
         Text("\(self.number)")
-            .font(.system(size: 30))
+            .font(.system(size: 50))
             .foregroundColor(.white)
     }
 }
