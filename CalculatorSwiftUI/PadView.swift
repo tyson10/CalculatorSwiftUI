@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct PadView: View {
+    private let spacing = AppConstant.UI.padSpacing
     var body: some View {
-        VStack {
-            HStack(spacing: 0) {
+        VStack(spacing: self.spacing) {
+            HStack(spacing: self.spacing) {
                 Button("AC", action: {})
                     .buttonStyle(NumberPadStyle(color: .gray))
                 Button("+/-", action: {})
@@ -21,7 +22,7 @@ struct PadView: View {
                     .buttonStyle(NumberPadStyle(color: .orange))
             }
             
-            HStack(spacing: 0) {
+            HStack(spacing: self.spacing) {
                 Button("7", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("8", action: {})
@@ -32,7 +33,7 @@ struct PadView: View {
                     .buttonStyle(NumberPadStyle(color: .orange))
             }
             
-            HStack(spacing: 0) {
+            HStack(spacing: self.spacing) {
                 Button("4", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("5", action: {})
@@ -43,7 +44,7 @@ struct PadView: View {
                     .buttonStyle(NumberPadStyle(color: .orange))
             }
             
-            HStack(spacing: 0) {
+            HStack(spacing: self.spacing) {
                 Button("1", action: {})
                     .buttonStyle(NumberPadStyle(color: .brown))
                 Button("2", action: {})
@@ -54,7 +55,7 @@ struct PadView: View {
                     .buttonStyle(NumberPadStyle(color: .orange))
             }
             
-            HStack(spacing: 0) {
+            HStack(spacing: self.spacing) {
                 Button("0", action: {})
                     .buttonStyle(WidePadStyle(color: .brown))
                 Button(".", action: {})
