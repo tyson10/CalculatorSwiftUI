@@ -16,8 +16,11 @@ struct NumberPadStyle: ButtonStyle {
     }
     
     func makeBody(configuration: Configuration) -> some View {
+        let wholeSpacing = AppConstant.UI.padSpacing * 5
+        let screenWidth = UIScreen.size.width
+        let size = (screenWidth - wholeSpacing) / 4
         configuration.label
-            .frame(width: UIScreen.size.width / 4, height: UIScreen.size.width / 4, alignment: .center)
+            .frame(width: size, height: size, alignment: .center)
             .background(self.color)
             .clipShape(Circle())
             .font(.system(size: 30))
@@ -32,8 +35,12 @@ struct WidePadStyle: ButtonStyle {
     }
     
     func makeBody(configuration: Configuration) -> some View {
+        let wholeSpacing = AppConstant.UI.padSpacing * 5
+        let screenWidth = UIScreen.size.width
+        let width = (screenWidth - wholeSpacing) / 2 + AppConstant.UI.padSpacing
+        let height = (screenWidth - wholeSpacing) / 4
         configuration.label
-            .frame(width: UIScreen.size.width / 2, height: UIScreen.size.width / 4, alignment: .center)
+            .frame(width: width, height: height, alignment: .center)
             .background(self.color)
             .clipShape(Capsule())
             .font(.system(size: 30))
