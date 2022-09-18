@@ -12,5 +12,5 @@ class AppConstant {
 }
 
 extension AppConstant.UI {
-    static let padSpacing: CGFloat = 20
+    static let padSpacing: CGFloat = 15
 }
