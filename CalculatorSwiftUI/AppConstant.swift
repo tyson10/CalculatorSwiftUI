@@ -12,5 +12,6 @@ class AppConstant {
 }
 
 extension AppConstant.UI {
+    /// 숫자 버튼간 여백
     static let padSpacing: CGFloat = 15
 }

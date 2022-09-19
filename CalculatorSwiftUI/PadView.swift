@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// 계산기 숫자 영역
 struct PadView: View {
     private let spacing = AppConstant.UI.padSpacing
     var body: some View {

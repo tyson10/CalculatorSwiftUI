@@ -9,6 +9,7 @@ import SwiftUI
 
 /// 넘버패드 버튼 스타일
 struct NumberPadStyle: ButtonStyle {
+    /// 버튼의 백그라운드 컬러
     private var color: Color
     
     init(color: Color) {
@@ -27,7 +28,9 @@ struct NumberPadStyle: ButtonStyle {
     }
 }
 
+/// 0 버튼 스타일
 struct WidePadStyle: ButtonStyle {
+    /// 버튼의 백그라운드 컬러
     private var color: Color
     
     init(color: Color) {

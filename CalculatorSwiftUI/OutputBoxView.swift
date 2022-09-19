@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-
+/// 계산기 모니터 영역
 struct OutputBoxView: View {
     @Binding var number: Double
     var body: some View {
