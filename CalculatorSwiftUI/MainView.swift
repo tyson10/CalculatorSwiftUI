@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+import Combine
+
 struct MainView: View {
     var body: some View {
         ZStack {
