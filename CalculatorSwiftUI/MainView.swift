@@ -10,11 +10,15 @@ import SwiftUI
 import Combine
 
 struct MainView: View {
+    @Binding var number: Double
     var body: some View {
         ZStack {
             VStack {
-                OutputBoxView(number: .constant(0))
-                    .frame(width: .infinity, height: .infinity, alignment: .trailing)
+                Text("\(0)")
+                    .frame(width: UIScreen.size.width, alignment: .trailing)
+                    .font(.system(size: 50))
+                    .foregroundColor(.white)
+                    
                 PadView()
             }
         }.preferredColorScheme(.dark)
@@ -23,6 +27,6 @@ struct MainView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        MainView(number: .constant(0))
     }
 }

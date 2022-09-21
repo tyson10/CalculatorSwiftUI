@@ -14,6 +14,7 @@ struct OutputBoxView: View {
         Text("\(self.number)")
             .font(.system(size: 50))
             .foregroundColor(.white)
+            .multilineTextAlignment(.trailing)
     }
 }
 
