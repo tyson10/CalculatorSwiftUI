@@ -14,7 +14,7 @@ struct MainView: View {
     var body: some View {
         ZStack {
             VStack {
-                Text("\(0)")
+                Text("\(self.number)")
                     .frame(width: UIScreen.size.width, alignment: .trailing)
                     .font(.system(size: 50))
                     .foregroundColor(.white)
