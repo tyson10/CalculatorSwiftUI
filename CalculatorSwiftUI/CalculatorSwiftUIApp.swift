@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CalculatorSwiftUIApp: App {
+    let initValue = UserDefaults.standard.double(forKey: AppConstant.UserdefaultsName.lastCalcValue) ?? 0
     var body: some Scene {
         WindowGroup {
-            MainView(number: .constant(0))
+            MainView(number: .constant(self.initValue))
         }
     }
 }
