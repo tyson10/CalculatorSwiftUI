@@ -12,16 +12,19 @@ import Combine
 struct MainView: View {
     @Binding var number: Double
     var body: some View {
-        ZStack {
+        GeometryReader { geometry in
             VStack {
                 Text("\(self.number)")
-                    .frame(width: UIScreen.size.width, alignment: .trailing)
+                    .frame(width: geometry.size.width, alignment: .trailing)
                     .font(.system(size: 50))
                     .foregroundColor(.white)
                     
                 PadView()
             }
         }.preferredColorScheme(.dark)
+//        ZStack {
+//
+//        }.preferredColorScheme(.dark)
     }
 }
 
