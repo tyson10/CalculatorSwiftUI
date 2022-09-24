@@ -14,17 +14,15 @@ struct MainView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
+                Spacer()
                 Text("\(self.number)")
                     .frame(width: geometry.size.width, alignment: .trailing)
                     .font(.system(size: 50))
                     .foregroundColor(.white)
-                    
                 PadView()
-            }
-        }.preferredColorScheme(.dark)
-//        ZStack {
-//
-//        }.preferredColorScheme(.dark)
+            }.padding(.bottom, 30)
+        }
+        .preferredColorScheme(.dark)
     }
 }
 
